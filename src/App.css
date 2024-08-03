@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.game {
+  background: white;
+  padding: 2em;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+input[type="text"] {
+  padding: 0.5em;
+  font-size: 1em;
+  width: 100%;
+}
+
+button {
+  padding: 0.5em 1em;
+  font-size: 1em;
+  margin-top: 1em;
+}
+
+h1 {
+  text-align: center;
+}
+
+.scoreSection {
+  display: block;
+  overflow: hidden;
+}
+
+.scoreSectionLeft {
+  float: left;
+  width: 100px;
+  text-align: center;
+}
+
+.scoreSectionRight {
+  float: right;
+  width: 100px;
+  text-align: center;
+}
+
+.gameMessage {
+  text-align: center;
+  border: 1px solid #cfcfcf;
+  padding: 10px;
+  background-color: #f4e9b0;
+}
+
+.passes {
+  background: red;
+  color: white;
+}
